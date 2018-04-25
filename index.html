@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Twitch API Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</head>
+
+<body class="container">
+  <div class="d-flex justify-content-center">
+    <h1>Twitch API Viewer</h1>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="form-inline center-block">
+      <input id="channel" type="text" value="" class="form-control">
+      <button id="insert" class="insert btn btn-primary">Insert stream</button>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="p-2">
+      <input type="radio" name="gender" value="All" checked>All
+    </div>
+    <div class="p-2">
+      <input type="radio" name="gender" value="Online">Online
+    </div>
+    <div class="p-2">
+      <input type="radio" name="gender" value="Offline">Offline
+    </div>
+    <br>
+  </div>
+</body>
+
+</html>
